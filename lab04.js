@@ -60,15 +60,13 @@ function val(){
 
 function calculate(action){
     var num1 = document.getElementById('money').value;
-    var result;
-    console.log(action)
-            
+          
     switch(action){
         case 'Dollar':
-                console.log(num1*3.72)
+                alert(num1*3.72)
             break;
         case 'Euro':
-                console.log(num1 *4.04)
+                alert(num1 *4.04)
             break;
     }
 }
